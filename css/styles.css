@@ -9,7 +9,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-family: 'Prompt', sans-serif;
-    color: #3D4A60; /* Darker shade for headers */
+    color: #3D4A60;
     font-weight: 700;
 }
 
@@ -17,7 +17,7 @@ h2, h3, h4, h5, h6 {
 #nav {
     left: 0%;
     right: 0%;
-    background-color: #35557B; /* Darker tone for nav */
+    background-color: #35557B;
     position: fixed;
     top: -75px;
     display: block;
@@ -83,7 +83,6 @@ a:hover {
     font-style: normal;
 }
 
-/* Darker font for moving text */
 .small-heading {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -95,9 +94,9 @@ a:hover {
 
 
 .intro h2 span.cursor {
-    color: #2D4059;
+    color: #E7F6F2;
     display: inline-block;
-    background-color: #2D4059;
+    background-color: #E7F6F2;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 0.8s infinite;
@@ -108,17 +107,17 @@ a:hover {
 }
 
 @keyframes blink {
-    0%  { background-color: #2D4059; }
-    49% { background-color: #2D4059; }
+    0%  { background-color: #E7F6F2; }
+    49% { background-color: #E7F6F2; }
     50% { background-color: transparent; }
     99% { background-color: transparent; }
-    100%  { background-color: #2D4059; }
+    100%  { background-color: #E7F6F2; }
 }
 
 /* Title Section */
 #title {
     text-align: center;
-    background-color: #A7C7E7; /* Lighter blue for contrast */
+    background-color: #A7C7E7;
     height: 100vh;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -130,19 +129,19 @@ a:hover {
 /* About Section */
 .about-div {
     text-align: center;
-    background-color: #C5E3F6; /* Light cyan */
+    background-color: #C5E3F6;
     position: relative;
     border-width: 10px;
     border-color: black;
 }
 
 .about-header {
-    color: #2D4059; /* Darker font color for better readability */
-    font-family: 'Courier New', monospace; /* To give it a code-like feel */
+    color: #2D4059;
+    font-family: 'Courier New', monospace;
 }
 
 .about-header::before {
-    content: 'print("Hello!")'; /* Updated to display print statement */
+    content: 'print("Hello!")';
     display: block;
     font-size: 2rem;
     font-weight: 400;
@@ -226,14 +225,14 @@ a:hover {
 /* Projects Section */
 #projects {
     text-align: center;
-    background-color: #E3F2F9; /* Light tone for the projects section */
+    background-color: #E3F2F9;
 }
 
 .projects-heading {
-    color: #3D4A60; /* Darker font for better readability */
+    color: #3D4A60;
     padding-top: 70px;
     padding-bottom: 40px;
-    font-family: 'Open Sans', sans-serif; /* More readable font */
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
@@ -274,9 +273,9 @@ a:hover {
 }
 
 .card p {
-    color: #ffffff; /* Darker font for readability */
+    color: #ffffff;
     font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif; /* More readable font */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card h3 {

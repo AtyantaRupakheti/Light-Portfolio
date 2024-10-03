@@ -6,7 +6,6 @@ This is a personal portfolio website that showcases my programming projects, ski
 
 ### 1. **Responsive Design**
    - The website is fully responsive and adapts to different screen sizes, including mobile, tablet, and desktop views.
-   - Designed using **Bootstrap 4**, it ensures that the layout adjusts properly across various devices.
 
 ### 2. **Projects Showcase**
    - Displays key personal projects, each with a description, an image preview, and a "See more" button that links to the corresponding GitHub repository.

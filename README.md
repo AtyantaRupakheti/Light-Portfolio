@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## used HTML, CSS, JavaScript... new one using Next.js and Framer Motion is on the way ;)
+### used HTML, CSS, JavaScript... new one using Next.js and Framer Motion is on the way ;)
 
 This is a personal portfolio website that showcases my programming projects, skills, and background. The website is built using **HTML**, **CSS**, and **JavaScript**, with a focus on modern, responsive design to provide an optimal user experience across all devices. The portfolio highlights projects I’ve worked on, my experience, and links to my professional profiles like LinkedIn and GitHub.
 

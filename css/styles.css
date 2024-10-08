@@ -290,7 +290,9 @@ a:hover {
     background-color: black;
     border: 5px solid;
     border-radius: 15px 15px 0 0;
-    object-fit: cover;
+    object-fit: fill;
+    width: 400px;
+    height: 200px;
 }
 
 .card-deck {

@@ -230,6 +230,7 @@ a:hover {
 #projects {
     text-align: center;
     background-color: #E3F2F9;
+    padding-bottom: 50px;
 }
 
 .projects-heading {
@@ -238,18 +239,24 @@ a:hover {
     padding-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 2.5rem;
+    position: relative;
 }
 
-.card-img-top {
-    background-color: black;
-    border: 5px solid;
+.projects-heading:hover::after {
+    width: 150px; /* Increase the width of the underline on hover */
 }
 
-.card-deck {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-left: -15px;
-    margin-right: -15px;
+.projects-heading::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #81CACF;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.4s ease;
 }
 
 @media (max-width: 575.98px) {
@@ -259,13 +266,6 @@ a:hover {
     }
 }
 
-.card-header{
-    background-color: #C5E3F6 ;
-}
-
-.card-footer{
-    background-color: #C5E3F6;
-}
 
 .card {
     background-color: #C5E3F6;
@@ -273,6 +273,37 @@ a:hover {
     display: flex;
     flex-direction: column;
     height: 98%;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    border: 2px solid transparent; /*Subtle border for effects */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px;
+    transform: translateY(-5px);
+    border: 2px solid #252427;
+}
+
+.card-img-top {
+    background-color: black;
+    border: 5px solid;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.card-deck {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.card-header{
+    background-color: #C5E3F6 ;
+    border-radius: 15px 15px 0 0;
 }
 
 .card-body {
@@ -281,8 +312,23 @@ a:hover {
 }
 
 .card-footer {
+    background-color: #C5E3F6;
     margin-top: auto;
+    border-radius: 0 0 15px 15px;
 }
+
+.card-footer button {
+    border-radius: 8px; /* Rounded edges for the button */
+}
+
+/* Underline hover effects for the button */
+.card-footer button:hover {
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
 
 .card p {
     color: #3D4A60;
